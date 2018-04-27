@@ -1,0 +1,15 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "@components": "./src/js/components",
+        "@actions": "./src/js/actions",
+        "@containers": "./src/js/containers",
+        "@reducers": "./src/js/reducers",
+        "@": "./src/js"
+      }
+    }]
+  ]
+}
